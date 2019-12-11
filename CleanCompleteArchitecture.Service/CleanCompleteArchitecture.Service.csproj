@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanCompleteArchitecture.Data\CleanCompleteArchitecture.Data.csproj" />
+    <ProjectReference Include="..\CleanCompleteArchitecture.Domain\CleanCompleteArchitecture.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
