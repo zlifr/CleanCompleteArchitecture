@@ -7,21 +7,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{89F3B1D1-D06
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B3DEE234-FEF5-4A7D-BA5D-EC7DD68CCC62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCompleteArchitecture.Api.Tests", "CleanCompleteArchitecture.Api.Tests\CleanCompleteArchitecture.Api.Tests.csproj", "{4D50D2D0-68E3-474F-B37C-C8F554F0FB08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCompleteArchitecture.Api.Tests", "CleanCompleteArchitecture.Api.Tests\CleanCompleteArchitecture.Api.Tests.csproj", "{4D50D2D0-68E3-474F-B37C-C8F554F0FB08}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCompleteArchitecture.Api", "CleanCompleteArchitecture.Api\CleanCompleteArchitecture.Api.csproj", "{C7B37F14-AB89-4FA3-92B3-A41E941AF356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCompleteArchitecture.Domain", "CleanCompleteArchitecture.Domain\CleanCompleteArchitecture.Domain.csproj", "{FA1410AE-01AE-4EDA-9317-516C73832C6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCompleteArchitecture.Domain", "CleanCompleteArchitecture.Domain\CleanCompleteArchitecture.Domain.csproj", "{FA1410AE-01AE-4EDA-9317-516C73832C6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCompleteArchitecture.Data", "CleanCompleteArchitecture.Data\CleanCompleteArchitecture.Data.csproj", "{A244B1BC-374F-4C93-AA4B-9F77C060D052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCompleteArchitecture.Data", "CleanCompleteArchitecture.Data\CleanCompleteArchitecture.Data.csproj", "{A244B1BC-374F-4C93-AA4B-9F77C060D052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCompleteArchitecture.Service", "CleanCompleteArchitecture.Service\CleanCompleteArchitecture.Service.csproj", "{735B41CE-CC8B-457C-9DC7-6A4006C56BE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCompleteArchitecture.Service", "CleanCompleteArchitecture.Service\CleanCompleteArchitecture.Service.csproj", "{735B41CE-CC8B-457C-9DC7-6A4006C56BE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCompleteArchitecture.Data.Tests", "CleanCompleteArchitecture.Data.Tests\CleanCompleteArchitecture.Data.Tests.csproj", "{4D4158FC-4C56-454F-A212-C3EDBF9490A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCompleteArchitecture.Data.Tests", "CleanCompleteArchitecture.Data.Tests\CleanCompleteArchitecture.Data.Tests.csproj", "{4D4158FC-4C56-454F-A212-C3EDBF9490A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCompleteArchitecture.Domain.Tests", "CleanCompleteArchitecture.Domain.Tests\CleanCompleteArchitecture.Domain.Tests.csproj", "{0D6D2378-6D65-4B44-995D-A0A6570382B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCompleteArchitecture.Domain.Tests", "CleanCompleteArchitecture.Domain.Tests\CleanCompleteArchitecture.Domain.Tests.csproj", "{0D6D2378-6D65-4B44-995D-A0A6570382B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCompleteArchitecture.Service.Tests", "CleanCompleteArchitecture.Service.Tests\CleanCompleteArchitecture.Service.Tests.csproj", "{78C6CB53-FD73-4001-849D-01F1AE3D7EB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCompleteArchitecture.Service.Tests", "CleanCompleteArchitecture.Service.Tests\CleanCompleteArchitecture.Service.Tests.csproj", "{78C6CB53-FD73-4001-849D-01F1AE3D7EB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{797D5999-1348-4EBF-B57D-DE6066CFAD64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{D9F8F976-30A6-4725-B336-0626F7D523EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCompleteArchitecture.Data.EF", "CleanCompleteArchitecture.Data.EF\CleanCompleteArchitecture.Data.EF.csproj", "{9F374905-0D28-4736-88B5-0DEE66F4E681}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +67,10 @@ Global
 		{78C6CB53-FD73-4001-849D-01F1AE3D7EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78C6CB53-FD73-4001-849D-01F1AE3D7EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78C6CB53-FD73-4001-849D-01F1AE3D7EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F374905-0D28-4736-88B5-0DEE66F4E681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F374905-0D28-4736-88B5-0DEE66F4E681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F374905-0D28-4736-88B5-0DEE66F4E681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F374905-0D28-4736-88B5-0DEE66F4E681}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +84,9 @@ Global
 		{4D4158FC-4C56-454F-A212-C3EDBF9490A3} = {B3DEE234-FEF5-4A7D-BA5D-EC7DD68CCC62}
 		{0D6D2378-6D65-4B44-995D-A0A6570382B0} = {B3DEE234-FEF5-4A7D-BA5D-EC7DD68CCC62}
 		{78C6CB53-FD73-4001-849D-01F1AE3D7EB3} = {B3DEE234-FEF5-4A7D-BA5D-EC7DD68CCC62}
+		{797D5999-1348-4EBF-B57D-DE6066CFAD64} = {89F3B1D1-D066-4AA0-98E3-E82C6B97152E}
+		{D9F8F976-30A6-4725-B336-0626F7D523EB} = {89F3B1D1-D066-4AA0-98E3-E82C6B97152E}
+		{9F374905-0D28-4736-88B5-0DEE66F4E681} = {89F3B1D1-D066-4AA0-98E3-E82C6B97152E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1582C218-8DF5-420E-825A-95D788D37E71}
